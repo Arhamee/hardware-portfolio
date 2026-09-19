@@ -1,0 +1,16 @@
+** Drc report for STM32WB55CEU6.kicad_pcb **
+** Created on 2026-09-19T20:28:10 **
+** Report includes: Errors **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
