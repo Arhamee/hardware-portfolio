@@ -1,0 +1,22 @@
+** Drc report for IOTPRODUCT1.kicad_pcb **
+** Created on 2026-09-19T23:18:12 **
+** Report includes: Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Via is not connected or connected on only one layer
+    - Hole size out of range
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
