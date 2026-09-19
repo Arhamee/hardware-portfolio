@@ -1,0 +1,27 @@
+** Drc report for APFC_SYSTEM.kicad_pcb **
+** Created on 2026-09-19T20:21:16 **
+** Report includes: Warnings **
+
+** Found 2 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(74.1700 mm, 123.8200 mm): Segment on Edge.Cuts
+    @(74.6125 mm, 95.6700 mm): Polygon of PS1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'MODULE_ESP-WROOM-32' does not match copy in library 'My_Footprints'
+    Local override; warning
+    @(185.7200 mm, 111.4250 mm): Footprint U1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
