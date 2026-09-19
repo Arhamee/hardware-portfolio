@@ -22,12 +22,11 @@ Every board includes the full KiCad source, renders, and DRC verification.
 |:---:|---|:---:|---|:---:|
 | 01 | **[LattePanda Mu Carrier Board](./01-LattePanda-Mu-Carrier-Board)** | 4 | USB 3.0 · HDMI · GbE, controlled impedance | 🟡 In Progress |
 | 02 | **[BGA Smart USB Drive](./02-BGA-Smart-USB-Drive)** | 4 | RP2040 + 64GB eMMC, 0.5mm BGA escape | 🟢 Complete |
-| 03 | **[Industrial APFC System](./03-Industrial-APFC-System)** | 4 | 5kW single-phase, mains isolation | 🟡 In Progress |
+| 03 | **[Industrial APFC System](./03-Industrial-APFC-System)** | 4 | 5kW single-phase, mains isolation | 🟢 Complete |
 | 04 | **[STM32WB USB + RF Board](./04-STM32WB-USB-RF)** | 4 | 2.4GHz RF + USB, dual-ground stackup | 🟢 Complete |
 | 05 | **[USB-C PD Power Supply](./05-USBC-PD-Power-Supply)** | 2 | CH224K PD negotiation, 90Ω diff pairs | 🟢 Complete |
 | 06 | **[ESP32 Power Monitor](./06-ESP32-Power-Monitor)** | 4 | 5-channel relay + current sensing | 🟢 Complete |
 | 07 | **[Hearing Assist DSP](./07-Hearing-Assist-DSP)** | — | Real-time NLMS noise cancellation | ✅ Built & Tested |
-| 08 | **[8-bit CPU in Verilog](./08-CPU-8bit-Verilog)** | — | Full CPU, module-by-module | ✅ Simulated |
 | 09 | **[MCU Board Collection](./09-MCU-Board-Collection)** | 2–4 | ESP32 / STM32 / MSPM0 variants | 🟢 Mixed |
 
 ---
@@ -69,38 +68,21 @@ Every board includes the full KiCad source, renders, and DRC verification.
 </tr>
 </table>
 ---
-project-name/
-├── README.md — design overview, challenges, decisions
-├── kicad-project/ — full KiCad source (.kicad_pro/.sch/.pcb)
-├── schematic.pdf — exported schematic view
-├── pcb-layout-top.png — routed board, top view
-├── 3d-render-top.png — 3D render
-├── drc-report.png — DRC/ERC verification result
-└── gerbers.zip — fabrication-ready Gerbers + drill files
----
-
-> Every board ships with its **raw KiCad files** — not just images — so the
-> design can be opened, checked, and verified directly rather than taken on faith.
-
-
-<div align="center">
-
-### 🔍 Fabrication Status
-
-Some boards here are complete, verified designs that haven't been physically
-built yet. Status is marked honestly on every project — closing the gap between
-DRC-clean and physically validated is the current priority.
-
-</div>
-
----
-
-<div align="center">
-
-*Feedback and corrections welcome — open an Issue on any project you'd improve.*
-
-</div>
-
 ## 📁 Repository Structure
 
 Each project folder follows the same layout:
+
+```
+project-name/
+├── README.md              — design overview, challenges, decisions
+├── kicad-project/          — full KiCad source (.kicad_pro/.sch/.pcb)
+├── schematic.pdf           — exported schematic view
+├── pcb-layout-top.png      — routed board, top view
+├── 3d-render-top.png       — 3D render
+├── drc-report.png          — DRC/ERC verification result
+└── gerbers.zip             — fabrication-ready Gerbers + drill files
+```
+
+> Every board ships with its **raw KiCad files** — not just images — so the
+> design can be opened, checked, and verified directly rather than taken on faith.
+### 🔍 Fabrication Status
